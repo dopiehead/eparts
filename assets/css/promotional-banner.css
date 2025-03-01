@@ -1,0 +1,24 @@
+.promo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.promo-banner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.promo-banner img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .promo-container {
+        grid-template-columns: 1fr;
+    }
+}

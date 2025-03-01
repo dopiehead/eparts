@@ -1,0 +1,83 @@
+
+.sidebar {
+     background: #fff;
+     width: 250px;
+     height: 60vh;
+     position:relative;
+     left: 0;
+     border-right: 1px solid #eee;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+         display: none;
+    }   
+}
+
+.categories-header {
+     background: #cc0000;
+     color: white;
+     padding: 15px;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+
+.category-item {
+     padding: 12px 15px;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     color: #333;
+     text-decoration: none;
+     border-bottom: 1px solid #eee;
+}
+
+.category-item:hover {
+    background: #f8f9fa;
+}
+
+.main-content {
+     width:100%;
+    padding: 20px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/images/background/hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+
+.sort-section {
+    padding: 15px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.page-numbers {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.check-out-btn {
+    background: #cc0000;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
